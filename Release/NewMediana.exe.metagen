@@ -1,0 +1,186 @@
+  NewMediana.Form1.resources - Embedded, ContainedInManifestFile, 
+  NewMediana.Form2.resources - Embedded, ContainedInManifestFile, 
+  NewMediana.Form3.resources - Embedded, ContainedInManifestFile, 
+  NewMediana.Form4.resources - Embedded, ContainedInManifestFile, 
+  NewMediana.Form5.resources - Embedded, ContainedInManifestFile, 
+  NewMediana.Form6.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly NewMediana, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class NewMediana.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ToolStripMenuItem построитьToolStripMenuItem : Public
+    System.Windows.Forms.ListBox listBox1 : Public
+    System.String[,] MedianDataBln : Public
+    System.String[,] MiddleDataBln : Public
+    System.String[] ReadlineMassive : Public
+    System.String HomeDirectory : Public
+    System.String FoutnameMidDat : Public
+    System.String FoutnameMedDat : Public
+    System.String FoutnameMidTxt : Public
+    System.String FoutnameMedTxt : Public
+    System.String GrapherMed : Public
+    System.String GrapherMid : Public
+    System.String shortFolderName : Public
+    System.String FileName : Public
+    System.String folderName : Public
+    System.String pathWorksheetMed : Public
+    System.String pathWorksheetMid : Public
+    System.String pathWorksheetMedDat : Public
+    System.String pathWorksheetMidDat : Public
+    System.String pathWorksheetMedTxt : Public
+    System.String pathWorksheetMidTxt : Public
+    NewMediana.Form2 gform2 : Public
+    NewMediana.Form3 gform3 : Public
+    NewMediana.Form4 gform4 : Public
+    NewMediana.Form6 gform6 : Public
+    Boolean noNumbers : Public
+    Boolean drawing : Public
+    System.String Delimeter : Public
+    Double** allData : Public
+    Int32 NumOflines : Public
+    Int32 orderfile : Public
+    Int32 skiplineCounter : Public
+    Boolean allowskip : Public
+    Int32 numberOfskip : Public
+    Boolean boolean : Public
+    Boolean booleanGraph : Public
+    Boolean booleanGraphMid : Public
+    Boolean booleanMedian : Public
+    Boolean booleanInLine : Public
+    Boolean booleanPoint : Public
+    Boolean booleanMiddle : Public
+    Boolean booleanDelete : Public
+    Boolean booleanMiddleDat : Public
+    Boolean booleanMedianDat : Public
+    Boolean exiting : Public
+    Boolean originGraph : Public
+    Double** Data : Public
+    Double** DataMassive : Public
+    Double* mlines : Public
+    Double* middle : Public
+    Double* median : Public
+    Double* members : Public
+    Double* Upper : Public
+    Double* Lower : Public
+    Double start : Public
+    Double finish : Public
+    Double sector : Public
+    Int32 NumberOfFiles : Public
+    Double doubdata : Public
+    Int32 NSector : Public
+    Int32 NumOfDelim : Public
+    Int32 xCol : Public
+    Int32 yCol : Public
+    Int32 N : Public
+    Int32 test : Public
+    Int32 NewLineCount : Public
+    Int32 scenarios : Public
+    Int32 NumOfColum : Public
+    Double trackBarBuffer : Public
+    Int32 SelectedFileToRead : Public
+    Int32 limitleft : Public
+    Int32 limitright : Public
+    Int32 trackBarSence : Public
+    System.Windows.Forms.DataVisualization.Charting.Series LeftBorder : Public
+    System.Windows.Forms.DataVisualization.Charting.Series RightBorder : Public
+    System.Windows.Forms.DataVisualization.Charting.Series MiddleLine : Public
+    System.Windows.Forms.DataVisualization.Charting.Series MedianLine : Public
+    System.Windows.Forms.DataVisualization.Charting.Series series1 : Public
+  Methods:
+    PreReading(String): PrivateScope, Public, HideBySig
+    Reading(String[]): PrivateScope, Public, HideBySig
+    ChangeFormat(String): PrivateScope, Public, HideBySig
+    SysStdString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, String): PrivateScope, Public, HideBySig
+    and_SysStringToChar(String): PrivateScope, Public, HideBySig
+    CheckNumbers(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    RoundNumber(Double, Int32): PrivateScope, Public, HideBySig
+    построитьToolStripMenuItem_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    GraphCompiler(Double**): PrivateScope, Public, HideBySig
+    BufferData(): PrivateScope, Public, HideBySig
+    DrawCompiler(Double**): PrivateScope, Public, HideBySig
+    EmptyChart(): PrivateScope, Public, HideBySig
+Class NewMediana.Form2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(NewMediana.Form1): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.CheckBox checkBox6 : Public
+    System.Windows.Forms.CheckBox checkBox3 : Public
+    System.Windows.Forms.CheckBox checkBox12 : Public
+    System.Windows.Forms.CheckBox checkBox11 : Public
+    System.Windows.Forms.CheckBox checkBox9 : Public
+    System.Windows.Forms.CheckBox checkBox8 : Public
+    System.Windows.Forms.CheckBox checkBox7 : Public
+    System.Windows.Forms.GroupBox groupBox4 : Public
+    System.Windows.Forms.CheckBox checkBox2 : Public
+    System.Windows.Forms.CheckBox checkBox1 : Public
+    System.Windows.Forms.CheckBox checkBox4 : Public
+    System.Windows.Forms.NumericUpDown numericUpDownRound : Public
+    System.Windows.Forms.RadioButton radioButton3 : Public
+    System.Windows.Forms.RadioButton radioButton2 : Public
+    System.Windows.Forms.RadioButton radioButton1 : Public
+    System.Windows.Forms.TabControl tabControl1 : Public
+    System.Windows.Forms.TabPage tabPage1 : Public
+    System.Windows.Forms.TabPage tabPage2 : Public
+    System.Windows.Forms.NumericUpDown numericUpDown1 : Public
+    System.Windows.Forms.CheckBox checkBox5 : Public
+Class NewMediana.Form3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(NewMediana.Form1): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.DataVisualization.Charting.Chart chart1 : Public
+Class NewMediana.Form4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(NewMediana.Form1): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    NewMediana.Form1 gform1 : Public
+    System.Windows.Forms.ListBox listBox1 : Public
+    System.Windows.Forms.DataGridView dataGridView1 : Public
+    Boolean mistake : Public
+    Int32 reductedColumn : Public
+    Boolean Refresh : Public
+    System.String info : Public
+    System.String FileInfo : Public
+    System.String Foldername : Public
+    Int32 numberOfDataRows : Public
+    Int32 numberOfEmptyRows : Public
+    NewMediana.Form5 gform5 : Public
+    Int32 selectedFile : Public
+    Boolean maximum : Public
+    Int32 RowsMaxNumber : Public
+  Methods:
+    RefrechInfo(Int32): PrivateScope, Public, HideBySig
+    CreateAditionalEmptyRows(): PrivateScope, Public, HideBySig
+Class NewMediana.Form6: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(NewMediana.Form1): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ProgressBar progressBar1 : Public
+  Methods:
+    ProcessBarInitialization(Int32): PrivateScope, Public, HideBySig
+Class NewMediana.Form5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(NewMediana.Form4): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ComboBox comboBox1 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+  Methods:
+    refreshrowvalues(): PrivateScope, Public, HideBySig
+    RoundNumber(Double, Int32): PrivateScope, Public, HideBySig
